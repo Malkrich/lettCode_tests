@@ -15,16 +15,21 @@
 
 #include "main.hpp"
 
-#include "strStr/strStr.hpp"
+#include "reverseLinkedList/reverseBetween.hpp"
 
 int main()
 {
-    string haystack = "a";
-    string needle = "a";
+    ListNode* input = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
+    int left = 2;
+    int right = 4;
 
-    int idx = strStr(haystack,needle);
+//    ListNode* input = new ListNode(1, new ListNode(2, new ListNode(3)));
+//    int left = 2;
+//    int right = 3;
 
-    cout << idx << endl;
+    ListNode* output = reverseBetween(input, left, right);
+
+    display(output);
 
     return 0;
 }

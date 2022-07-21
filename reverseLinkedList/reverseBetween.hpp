@@ -3,16 +3,26 @@
 
 #include "extra_librairies/listNode.hpp"
 
-ListNode* reverseBetween(ListNode* head, int left, int right); // main algorithm
+#include <cmath>
 
 /**
- * @brief readValue : reads a value a index _idx
+ * @brief reverseBetween : main algorithm
  */
-int readValue(ListNode* _l, int _idx);
+ListNode* reverseBetween(ListNode* head, int left, int right);
 
 /**
- * @brief writeValue : writes a value at index _idx
+ * @brief readValue : reads a value a index idx
  */
-void writeValue(ListNode* _l, int _idx, int _val);
+int readValue(ListNode* l, int idx);
+
+/**
+ * @brief writeValue : writes a value at index idx
+ */
+void writeValue(ListNode* l, int idx, int val);
+
+/**
+ * @brief sizeOf : find the a linked list
+ */
+int sizeOf(ListNode* l);
 
 #endif // REVERSEBETWEEN_HPP
