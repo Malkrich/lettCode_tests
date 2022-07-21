@@ -6,6 +6,7 @@ SOURCES += \
     mergeTwoSortedList/mergeTwoSortedList.cpp \
     removeDuplicates/removeDuplicates.cpp \
     removeElement/removeElement.cpp \
+    reverseLinkedList/reverseBetween.cpp \
     searchInsert/searchInsert.cpp \
     strStr/strStr.cpp
 
@@ -17,5 +18,6 @@ HEADERS += \
     mergeTwoSortedList/mergeTwoSortedList.hpp \
     removeDuplicates/removeDuplicates.hpp \
     removeElement/removeElement.hpp \
+    reverseLinkedList/reverseBetween.hpp \
     searchInsert/searchInsert.hpp \
     strStr/strStr.hpp
