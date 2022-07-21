@@ -11,4 +11,8 @@
 #include <vector>
 #include <stack>
 
+using std::vector;
+using std::string;
+using std::cout;    using std::endl;
+
 #endif // MAIN_HPP

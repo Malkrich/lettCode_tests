@@ -15,20 +15,16 @@
 
 #include "main.hpp"
 
-#include "removeDuplicates/removeDuplicates.hpp"
+#include "strStr/strStr.hpp"
 
 int main()
 {
-    std::vector<int> nums = {0,0,1,1,1,2,2,3,3,4};
-    std::vector<int> expectedNums = {0,1,2,3,4};
+    string haystack = "mississippi";
+    string needle = "issip";
 
-    int k = removeDuplicates2(nums);
+    int idx = strStr(haystack,needle);
 
-    assert(k == expectedNums.size());
-    for(int i = 0; i < k; i++)
-    {
-        assert(nums[i] == expectedNums[i]);
-    }
+    cout << idx << endl;
 
     return 0;
 }
