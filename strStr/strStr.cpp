@@ -4,10 +4,12 @@ int strStr(string haystack, string needle)
 {
     if(needle == "")
         return 0;
+    if(needle.length() > haystack.length())
+        return -1;
 
     int j;
 
-    for(int i = 0; i < haystack.length(); i++)
+    for(int i = 0; i < haystack.length() + 1 - needle.length(); i++)
     {
         j = 0;
         if(haystack[i] == needle[j])

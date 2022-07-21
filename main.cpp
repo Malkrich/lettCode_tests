@@ -19,8 +19,8 @@
 
 int main()
 {
-    string haystack = "mississippi";
-    string needle = "issip";
+    string haystack = "a";
+    string needle = "a";
 
     int idx = strStr(haystack,needle);
 
