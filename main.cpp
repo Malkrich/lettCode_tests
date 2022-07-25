@@ -15,21 +15,15 @@
 
 #include "main.hpp"
 
-#include "reverseLinkedList/reverseBetween.hpp"
+#include "lengthOfLastWord/lengthOfLastWord.hpp"
 
 int main()
 {
-    ListNode* input = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
-    int left = 2;
-    int right = 4;
+    string input = "a ";
 
-//    ListNode* input = new ListNode(1, new ListNode(2, new ListNode(3)));
-//    int left = 2;
-//    int right = 3;
+    int length = lengthOfLastWord(input);
 
-    ListNode* output = reverseBetween(input, left, right);
-
-    display(output);
+    cout << "Length is : " << length << endl;
 
     return 0;
 }
