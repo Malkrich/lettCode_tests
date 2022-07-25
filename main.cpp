@@ -15,15 +15,16 @@
 
 #include "main.hpp"
 
-#include "lengthOfLastWord/lengthOfLastWord.hpp"
+#include "addBinary/addBinary.hpp"
 
 int main()
 {
-    string input = "a ";
+    string input_a = "11";
+    string input_b = "1";
 
-    int length = lengthOfLastWord(input);
+    string output = addBinary(input_a,input_b);
 
-    cout << "Length is : " << length << endl;
+    cout << "Result is : " << output << endl;
 
     return 0;
 }

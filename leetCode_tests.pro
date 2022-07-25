@@ -1,4 +1,5 @@
 SOURCES += \
+    addBinary/addBinary.cpp \
     extra_librairies/listNode.cpp \
     isValid/isValid.cpp \
     lengthOfLastWord/lengthOfLastWord.cpp \
@@ -13,6 +14,7 @@ SOURCES += \
     strStr/strStr.cpp
 
 HEADERS += \
+    addBinary/addBinary.hpp \
     isValid/isValid.hpp \
     lengthOfLastWord/lengthOfLastWord.hpp \
     listNode/listNode.hpp \
