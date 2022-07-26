@@ -18,3 +18,31 @@ vector<vector<int>> generate(int numRows)
 
     return ret;
 }
+
+vector<vector<int>> generate2(int numRows)
+{
+    vector<vector<int>> ret = {vector<int>(1,1)};
+
+    for(int i = 0; i < numRows-1; i++)
+    {
+        ret.push_back(getRow(i+1));
+    }
+
+    return ret;
+}
+
+vector<int> getRow(int rowIndex)
+{
+    vector<int> row = {1};
+
+    for(int i = 0; i < rowIndex; i++)
+    {
+        row.insert(row.begin(),1);
+        for(int j = 1; j < row.size()-1; j++)
+        {
+            row[j] = row[j] + row[j+1];
+        }
+    }
+
+    return row;
+}
