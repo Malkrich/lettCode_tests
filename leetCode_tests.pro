@@ -1,4 +1,9 @@
 SOURCES += \
+    ClimbingStairs/ClimbingStairs.cpp \
+    ExcelSheet/convertToTitle.cpp \
+    PascalsTriangle/generate.cpp \
+    Sqrt/mySqrt.cpp \
+    TriangularSum/triangularSum.cpp \
     addBinary/addBinary.cpp \
     extra_librairies/listNode.cpp \
     isValid/isValid.cpp \
@@ -14,6 +19,11 @@ SOURCES += \
     strStr/strStr.cpp
 
 HEADERS += \
+    ClimbingStairs/ClimbingStairs.hpp \
+    ExcelSheet/convertToTitle.hpp \
+    PascalsTriangle/generate.hpp \
+    Sqrt/mySqrt.hpp \
+    TriangularSum/triangularSum.hpp \
     addBinary/addBinary.hpp \
     isValid/isValid.hpp \
     lengthOfLastWord/lengthOfLastWord.hpp \

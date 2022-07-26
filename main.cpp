@@ -1,10 +1,10 @@
 #include "main.hpp"
 
-#include "Sqrt/mySqrt.hpp"
+#include "ClimbingStairs/ClimbingStairs.hpp"
 
 int main()
 {
-    cout << mySqrt2(8) << endl;
+    cout << ClimbStairs(2) << endl;
 
     return 0;
 }
