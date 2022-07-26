@@ -1,21 +1,12 @@
 #include "main.hpp"
 
-#include "PascalsTriangle/generate.hpp"
+#include "TriangularSum/triangularSum.hpp"
 
 int main()
 {
-//    vector<int> output = getRow(0);
+    vector<int> input = {1,2,3,4};
 
-    vector<vector<int>> output = generate(5);
-
-    for(auto vec : output)
-    {
-        for(auto val : vec)
-        {
-            cout << val << " ";
-        }
-        cout << endl;
-    }
+    cout << "Triangular sum is : " << triangularSum2(input) << endl;
 
     return 0;
 }
