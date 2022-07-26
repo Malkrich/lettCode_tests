@@ -1,12 +1,10 @@
 #include "main.hpp"
 
-#include "TriangularSum/triangularSum.hpp"
+#include "Sqrt/mySqrt.hpp"
 
 int main()
 {
-    vector<int> input = {1,2,3,4};
-
-    cout << "Triangular sum is : " << triangularSum2(input) << endl;
+    cout << mySqrt2(8) << endl;
 
     return 0;
 }
